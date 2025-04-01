@@ -141,7 +141,7 @@ const AddToCart = ({ product, variationId, fullWidth = false }: IProductRootObje
     // Refetch cart after 2 seconds
     setTimeout(() => {
       refetch();
-    }, 2000);
+    }, 3000);
   };
 
   return (
